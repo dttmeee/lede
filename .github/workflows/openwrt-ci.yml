@@ -204,7 +204,7 @@ jobs:
           path: ./bin/targets/
           sudo -E apt-get clean
 
-          df -h
+          # df -h
 
       - name: Update feeds
         run: |
